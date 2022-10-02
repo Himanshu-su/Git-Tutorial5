@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/aa5b8fe362.js" crossorigin="anonymous"></script>
+
+    <style>
+        .container {
+            display: flex;
+            border: 0px solid red;
+            justify-content: space-between;
+
+        }
+
+        .container>div:nth-child(1) {
+            display: flex;
+            border: 0px solid blue;
+            justify-content: space-evenly;
+            width: 20%;
+            font-size: 20px;
+            padding-top: 5px;
+
+            cursor: pointer;
+
+        }
+
+        .container>div:nth-child(2) {
+            border: 0px solid green;
+            cursor: pointer;
+
+        }
+
+        .container>div:nth-child(3) {
+            display: flex;
+            border: 0px solid blueviolet;
+            font-size: 25px;
+            width: 30%;
+            height: auto;
+            justify-content: space-evenly;
+            margin: 20px;
+            cursor: pointer;
+
+
+        }
+
+        .container>div:nth-child(1)>p:hover {
+            color: grey;
+        }
+
+        .card {
+            display: flex;
+            width: 70%;
+            justify-content: space-around;
+            border: 0px solid black;
+            height: 50px;
+            padding-top: 20px;
+            font-size: 17px;
+            color: black;
+            padding-left: 1%;
+
+        }
+
+        div>input {
+            width: 150%;
+            height: 50px;
+            margin-left: 100%;
+            margin-top: -20px;
+            font-size: 15px;
+            padding-left: 20px;
+        }
+
+
+        .card>div:nth-child(11)>div {
+            display: flex;
+            margin-left: 70%;
+            font-size: large;
+            height: 50px;
+            margin-top: -20px;
+            font-size: large
+        }
+
+        #card2 {
+            color: red;
+        }
+
+        #card1 {
+            color: black;
+        }
+
+        .cool {
+            border: 0px solid red;
+            width: 50%;
+            height: 300px;
+            text-align: center;
+            padding-top: 10%;
+            font-size: 20px;
+
+        }
+
+        .cool>p {
+            margin-top: 50px;
+            text-overflow: ellipsis;
+        }
+
+
+
+        #vlog {
+            display: flex;
+            margin-top: 5%;
+            /* margin: auto; */
+            gap: 20px;
+        }
+
+        #superb {
+            border: 0px solid red;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 600px);
+            margin-top: 10%;
+            gap: 20px;
+        }
+
+        #superb>div>img {
+            width: 300px;
+            height: auto;
+
+        }
+
+        #superb>div {
+            /* grid-template-columns: repeat(4, 1fr); */
+            border: 0px solid black;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding-left: 20px;
+        }
+
+
+        #btn-1 {
+            width: 25%;
+            height: 25%;
+            font-size: 25px;
+            margin-top: 10%;
+            background-color: blanchedalmond;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        #btn-1:hover {
+            background-color: #FF00FF;
+            color: aliceblue;
+
+        }
+
+        #btn-2 {
+
+            width: 20%;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: large;
+            /* margin-left: 15%; */
+            margin-top: 5%;
+            background-color: #F778A1;
+            color: azure;
+
+        }
+
+        #btn-2:hover {
+            background-color: #9FE2BF;
+            color: black;
+        }
+
+        #fool {
+            border-radius: 10px;
+        }
+
+        #joker1 {
+            width: 95%;
+            display: flex;
+            border: 0px solid red;
+            justify-content: space-between;
+        }
+
+        #joker1>a>i {
+            font-size: 35px;
+            margin-top: 90%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div id="joker"></div> -->
+        <div id="joker1">
+            <h1>
+                FARFETCH
+            </h1>
+            <a href="revision8.html">
+                <i class="fa-sharp fa-solid fa-user"></i>
+            </a>
+        </div>
+        <div>
+
+
+
+        </div>
+    </div>
+
+    <div class="card">
+        <div>New In</div>
+        <div>Shop By</div>
+        <div>Brands</div>
+        <div>Clothing</div>
+        <div>Shoes</div>
+        <div>Sneakers</div>
+        <div>Bags</div>
+        <div>Accessories</div>
+        <div>Watches</div>
+        <div id="card2">Sale</div>
+        <div>
+
+            <input id='fool' type="text" placeholder="Search">
+
+
+        </div>
+    </div>
+
+    <div id="vlog">
+        <div class="cool">
+            <h1>WHAT TO WEAR<br>NOW: MEET FALL'S<br>NEW HEROS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur<br> pisicing elit. Eveniet voluptatibus itaqu.<br> dam
+                unde? Quibusdam, vel odio quod quis
+            </p>
+            <a href="revision10.html">
+                <button id='btn-1'>Explore More</button>
+            </a>
+
+        </div>
+
+        <div class="champ">
+            <img
+                src="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/3937466/data/f170262be2a9fd86e41352dd183999d7/1x1_messaging-side/637/data.jpeg">
+        </div>
+    </div>
+
+    <a href="revision7.html">
+        <button id='btn-2'>Go To Cart Page</button>
+    </a>
+
+
+    <div id="superb"> </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<script>
+
+    let objArr = [
+        {
+            id: 1,
+            img_url: 'https://cdn-images.farfetch-contents.com/18/57/06/79/18570679_41420293_600.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 402
+        },
+        {
+            id: 2,
+            img_url: 'https://cdn-images.farfetch-contents.com/18/02/57/49/18025749_39820818_600.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 500
+        },
+        {
+            id: 3,
+            img_url: 'https://cdn-images.farfetch-contents.com/18/78/88/31/18788831_40842159_600.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 350
+        },
+        {
+            id: 4,
+            img_url: 'https://cdn-images.farfetch-contents.com/17/15/22/82/17152282_41289306_600.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 750
+        },
+        {
+            id: 5,
+            img_url: 'https://cdn-images.farfetch-contents.com/19/07/52/25/19075225_41665529_600.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 1000
+        },
+        {
+            id: 6,
+            img_url: 'https://cdn-images.farfetch-contents.com/13/63/25/42/13632542_16431157_480.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 1200
+        },
+        {
+            id: 7,
+            img_url: 'https://cdn-images.farfetch-contents.com/17/15/15/82/17151582_35670477_480.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 1500
+        },
+        {
+            id: 8,
+            img_url: 'https://cdn-images.farfetch-contents.com/16/06/21/50/16062150_32587766_480.jpg',
+            p1_para: 'New Season',
+            h3_heading: 'Palm Angles',
+            p2: 'camouflage-print rhinestone logo T-shirt',
+            price: 2000
+        },
+
+    ];
+
+    let cartArr = JSON.parse(localStorage.getItem('cart')) || []
+
+    objArr.forEach(function (el) {
+        let x = document.createElement('div')
+
+        let m = document.createElement('img')
+        m.src = el.img_url;
+
+        let n = document.createElement('p')
+        n.innerText = el.p1_para
+
+        let o = document.createElement('h3')
+        o.innerText = el.h3_heading
+
+        let p = document.createElement('p')
+        p.innerText = el.p2
+
+        let q = document.createElement('p')
+        q.innerText = el.price
+
+        let r = document.createElement('button')
+        r.innerText = 'Add To Cart'
+        r.style.backgroundColor = ' #9FE2BF '
+        r.style.borderRadius = '5px'
+        r.style.cursor = 'pointer'
+
+        r.addEventListener('click', function () {
+            addTo(el)
+
+
+        })
+
+        x.append(m, n, o, p, q, r)
+        document.querySelector('#superb').append(x);
+
+    })
+
+    localStorage.setItem('products', '8 products')
+
+    function addTo(el) {
+        cartArr.push(el)
+        localStorage.setItem('cart', JSON.stringify(cartArr))
+
+    }
+
+
+
+</script>
